@@ -1,0 +1,34 @@
+# 环境与密钥（切勿提交）
+.env
+.env.local
+*.pem
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 向量库 / 本地数据
+.chroma_db/
+*.db
+data/*.pdf
+data/*.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+.git_commit_msg.txt

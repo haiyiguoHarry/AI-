@@ -1,0 +1,5 @@
+langchain>=0.1.0
+langchain-openai>=0.0.5
+# 若用国产大模型，可用 langchain_community 的 ChatTongyi 等
+python-dotenv>=1.0.0
+requests>=2.28.0
